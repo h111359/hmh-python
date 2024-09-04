@@ -1,14 +1,16 @@
 # Python
 
+## Quck Setup
+
+    python3 -m venv venv
+    source ./venv/bin/activate
+    pip install -r requirements.txt
+
 ## Day to day
 
    1. Open Visual Studio Code
    1. Open new terminal with Ctrl+Shift+`
-   1. Navigate to folder /home/hromar/GitHub/python
-
-
-Alternatively open terminal and navigate to /home/hromar/GitHub/python
-
+   1. Navigate to the folder Python in your lab space
 
 Start virtual machine with command:
  
@@ -19,8 +21,6 @@ Start jupyter notebook executing in the terminal the command:
     jupyter notebook
 
 A browser opens and it should list the content of the folder Home/GitHub/python. Navigate to subfolder jupyter_notebooks
-
-Either use already created notebook or create a new one
 
 
 ## Initialization sequence
@@ -101,7 +101,6 @@ Linux:
 
     python3 -m venv <virtual environment name>
 
-    cd ./venv && python3 -m venv fdmt
 
 Windows:
 
