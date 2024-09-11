@@ -51,21 +51,23 @@ Check the setup here:
 The cloning in corporate environment should be with disabled SSL, so use the following
 git clone -c http.sslVerify=false https://github.com/hmhristov/Python.git
 
-# Python installation
+## Python installation
 
 Official Python site: [https://www.python.org/](https://www.python.org/)
 
     python --version
 
-## Python louncher 
+### Python louncher 
 
     py --version
     py -3.10
     py -3.10 --version
     py --list
     py --list-paths
-    
-## For installing GitHub CLI on Linux:
+
+## GitHub
+
+### For installing GitHub CLI on Linux:
 
 https://docs.github.com/en/get-started/using-github/github-cli
 
@@ -78,7 +80,8 @@ https://github.com/cli/cli#installation
 https://github.com/cli/cli/blob/trunk/docs/install_linux.md
 
 
-## Working with GitHub CLI
+### Working with GitHub CLI
+
 First ensure that you are logged to GitHub:
 
     gh auth login
@@ -130,7 +133,13 @@ Deactivation:
 
     pip install -r "./fundamentals/course_materials/python-fundamentals-main/02 - Installing and Running Python/requirements.txt"
 
-If you wish jupyther themes can be installed
+## Jupyter Notebooks
+
+### Run jupyter notebook
+
+    jupyter notebook
+
+### Jupyther Themes
 
     pip install jupyterthemes
 
@@ -140,9 +149,6 @@ Then activate one of the dark themes:
 
 More on this here: https://saturncloud.io/blog/jupyter-notebook-dark-mode-a-step-by-step-guide/
 
-### Run jupyter notebook
-
-    jupyter notebook
 
 ## Additional links to documentation
 
