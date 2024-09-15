@@ -20,7 +20,7 @@ def applyOnSubfolders(folder, func):
 
 def main():
 
-    folder = r"C:\Users\Tsonski\Desktop\GoogleDrive\h11135912_Photos_Best\Photos_012_Best\2012"   
+    folder = sys.argv[1]
     
     applyOnSubfolders(folder, processFolder)
 
