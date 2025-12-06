@@ -1,6 +1,1 @@
-numpy
-pandas
 jupyter
-openpyxl
-pyarrow
-fastparquet
